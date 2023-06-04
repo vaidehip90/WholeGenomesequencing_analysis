@@ -25,7 +25,6 @@ ref="/home/vaidpatel575/WholeExomesequencing/ref/hg38.fa"
 rwdata="/home/vaidpatel575/WholeExomesequencing/data/"
 alignreads="/home/vaidpatel575/WholeExomesequencing/aligned_reads"
 results_all="/home/vaidpatel575/WholeExomesequencing/results"
-dbsnps="/home/vaidpatel575/WholeExomesequencing/ref"
 final_results="/home/vaidpatel575/WholeExomesequencing/final_result"
 
 STEP 2: Checking the Quality of the fastq files
