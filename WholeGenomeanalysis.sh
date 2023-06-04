@@ -36,7 +36,7 @@ All the quality check metrics passed so no trimming needed
 
 
 STEP 3 :Alignment to reference genome
-echo "Running alignment minimap2"
+echo "Running alignment BWA-MEM"
 bwa mem index ${ref}
 bwa mem -t 4 -R "@RG\tID:ERR242939\tPL:ILLUMINA\tSM:ERR242939" ${ref} ${rwdata}/ERR242939_1.filt.fastq ${rwdata}/ERR242939_2.filt.fastq > ${alignreads}/ERR242939_bwa.sam
 bwa mem -t 4 -R "@RG\tID:ERR242943\tPL:ILLUMINA\tSM:ERR242943" ${ref} ${rwdata}/ERR242943_1.filt.fastq ${rwdata}/ERR242943_2.filt.fastq > ${alignreads}/ERR242943_bwa.sam
